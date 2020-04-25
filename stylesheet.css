@@ -1,0 +1,161 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Myriad Pro";
+  font-weight: bold;
+  
+}
+
+/*@font-face{
+  font-family:"Myriad Pro";
+  src: url(MyriadPro-BlackSemiCn);
+}*/
+
+li {
+  list-style: none;
+}
+
+header{
+  background-color: #E6E6E8;
+  height: 80px;
+  padding: 20px 40px;
+}
+
+.header-left{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  width: 120px;
+  padding-top: 15px;
+  padding-left: 15px;
+  float: left;
+  border-radius: 10px;
+}
+
+.header-left h1{
+  padding-left: 5px;
+  padding-bottom: 15px;
+  letter-spacing: 5px;
+}
+
+.header-center h1{
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 100px;
+  
+}
+
+.container{
+  margin: 20px;
+  border-top: 3px solid #dee7ec;
+}
+
+.container h1{
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 20px;  
+}
+
+.photo-member{
+  padding-left: 10px;
+  float: left;
+  margin-right: 20px;
+
+}
+
+.photo-member img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.member-list{
+  margin-left: 200px;
+  /*width: 100%;*/
+  display: flex;
+  margin-top: 50px;
+}
+
+.member-name{
+  float:left;
+  margin-top: 170px;
+  margin-right: inherit;
+  padding-right: 10px;
+  width: 320px;
+}
+
+.member-detail{
+  background-color:#E6E6E8;
+  padding: 5px 25px;
+  float: left;
+  line-height: 30px;
+  border-radius: 10px;
+  width: 330px;
+}
+
+.table{
+  font-size: 5px"
+}
+
+.ekstra1{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  border-top: 3px solid #dee7ec;
+  height: 350px;
+  
+}
+
+.ekstra1-title{
+  margin-top: 20px;
+}
+
+.ekstra1-content{
+  float: left;
+  margin-top: 40px;
+  margin-left: 55px;
+
+}
+
+.ekstra1-content img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.group-name{
+  font-size: 30px;
+  text-align: center;
+}
+
+.group-detail{
+  width: 500px;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.main{
+  height: 300px;
+  margin-top: 30px;
+  text-align: center;
+  
+}
+
+.main-content{
+  margin: 20px 50px;
+  float: left;
+  
+}
+
+.main-logo img{
+  width: 250px;
+  float:left;
+  margin-left: 300px;
+  
+}
