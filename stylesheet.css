@@ -17,38 +17,32 @@ body {
   src: url(MyriadPro-BlackSemiCn);
 }*/
 
-li {
-  list-style: none;
-}
-
-header{
+header {
+  height: 90px;
+  width: 100%;
+  color: black;
   background-color: #E6E6E8;
-  height: 80px;
-  padding: 20px 40px;
 }
 
-.header-left{
-  background-color: black;
-  color: white;
-  font-size: 20px;
-  width: 120px;
-  padding-top: 15px;
-  padding-left: 15px;
+.header-left {
   float: left;
-  border-radius: 10px;
 }
 
-.header-left h1{
-  padding-left: 5px;
-  padding-bottom: 15px;
-  letter-spacing: 5px;
+.logo {
+  width: 125px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-left: 20px;
 }
 
-.header-center h1{
+.header-central h1{
+  color: #696969;
   text-align: center;
-  padding-top: 20px;
-  padding-right: 100px;
-  
+  padding-top: 15px;
+  letter-spacing: 5px;
+  margin: 0;
+  height: 25px;
+  font-size: 50px;
 }
 
 .container{
