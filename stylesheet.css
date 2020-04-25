@@ -12,10 +12,7 @@ body {
   
 }
 
-/*@font-face{
-  font-family:"Myriad Pro";
-  src: url(MyriadPro-BlackSemiCn);
-}*/
+/*INI HEADER */
 
 header {
   height: 90px;
@@ -45,6 +42,63 @@ header {
   font-size: 50px;
 }
 
+/*INI MAIN */
+.group-name{
+  font-size: 30px;
+  text-align: center;
+}
+
+.group-detail{
+  width: 500px;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.main{
+  height: 300px;
+  margin-top: 30px;
+  justify-content: center;
+  display: flex;
+}
+
+.main-content{
+  margin: 20px 50px;
+}
+
+.main-logo img{
+  width: 250px;
+}
+
+/*INI EKSTRA 1 */
+.ekstra1{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  border-top: 3px solid #dee7ec;
+  height: 350px;
+}
+
+.ekstra1-wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.ekstra1-title{
+  margin-top: 20px;
+}
+
+.ekstra1-content{
+  margin-top: 40px;
+  margin-left: 55px;
+}
+
+.ekstra1-content img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+/*INI EKSTRA 2*/
 .container{
   margin: 20px;
   border-top: 3px solid #dee7ec;
@@ -70,10 +124,10 @@ header {
 }
 
 .member-list{
-  margin-left: 150px;
-  /*width: 100%;*/
+  /*margin-left: 150px;*/
   display: flex;
   margin-top: 50px;
+  justify-content: center;
 }
 
 .member-name{
@@ -97,69 +151,14 @@ header {
   font-size: 4px"
 }
 
-.ekstra1{
-  text-align: center;
-  margin-top: 20px;
-  font-size: 20px;
-  border-top: 3px solid #dee7ec;
-  height: 350px;
-  
-}
-
-.ekstra1-title{
-  margin-top: 20px;
-}
-
-.ekstra1-content{
-  float: left;
-  margin-top: 40px;
-  margin-left: 55px;
-
-}
-
-.ekstra1-content img{
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-}
-
-.group-name{
-  font-size: 30px;
-  text-align: center;
-}
-
-.group-detail{
-  width: 500px;
-  text-align: justify;
-  margin-top: 20px;
-}
-
-.main{
-  height: 300px;
-  margin-top: 30px;
-  text-align: center;
-  
-}
-
-.main-content{
-  margin: 20px 50px;
-  float: left;
-  
-}
-
-.main-logo img{
-  width: 250px;
-  float:left;
-  margin-left: 300px;
-  
-}
+/*INI FOOTER */
 
 .footer{
   height: 120px;
   width: 100%;
   background-color: #E6E6E8;
   line-height: 20px;
-  font-family: "MyriadPro";
+  font-family: "Myriad Pro";
   margin-top: 100px;
 }
 
@@ -168,14 +167,14 @@ header {
   text-align: center;
   padding-top: 15px;
   font-size: 20px;
-  font-family: "MyriadPro";
+  font-family: "Myriad Pro";
 }
 
 .footer h2{
   color: #696969;
   text-align: center;
   font-size: 12px;
-  font-family: "MyriadPro";
+  font-family: "Myriad Pro";
 }
 
 p{
