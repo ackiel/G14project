@@ -76,7 +76,7 @@ header{
 }
 
 .member-list{
-  margin-left: 200px;
+  margin-left: 150px;
   /*width: 100%;*/
   display: flex;
   margin-top: 50px;
@@ -96,11 +96,11 @@ header{
   float: left;
   line-height: 30px;
   border-radius: 10px;
-  width: 330px;
+  width: 380px;
 }
 
 .table{
-  font-size: 5px"
+  font-size: 4px"
 }
 
 .ekstra1{
@@ -211,7 +211,6 @@ p{
   background: #55ACEE;
   color: white;
 }
-
 .fa-instagram {
 background: #125688;
 color: white;
