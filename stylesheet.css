@@ -12,6 +12,25 @@ body {
   
 }
 
+/*MENU*/
+.menu{
+  background-color: darkslategrey;
+  color: white;
+  height: 30px;
+}
+
+.menu ul{
+  display: flex;
+
+}
+
+.menu li{
+  flex: auto;
+  list-style: none;
+  text-align: center;
+  margin-top: 5px;
+}
+
 /*INI HEADER */
 
 header {
