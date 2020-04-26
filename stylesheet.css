@@ -43,30 +43,68 @@ header {
 }
 
 /*INI MAIN */
-.group-name{
-  font-size: 30px;
-  text-align: center;
+.main {
+  margin-top : 60px;
+  padding: 20px;
+  text-align : center;
 }
 
-.group-detail{
-  width: 500px;
-  text-align: justify;
-  margin-top: 20px;
-}
-
-.main{
+.contents {
+  width: 100%;
+  margin-top: 25px;
   height: 300px;
-  margin-top: 30px;
-  justify-content: center;
-  display: flex;
+  display:flex;
+
 }
 
-.main-content{
-  margin: 20px 50px;
+.contents-left {
+  float: left;
+  height : 100%;
+  width : 50%;
 }
 
-.main-logo img{
-  width: 250px;
+.logo1 {
+  height : 300px;
+}
+
+.contents-right {
+  float: left;
+  height : 100%;
+  text-align : center;
+  width: 50%;
+}
+
+@keyframes anime {
+	0%{background-color:#ffff00;}
+	25%{background-color:#ffbf00;}
+	50%{background-color:#ff8000;}
+	100%{background-color:orange;}
+}
+
+.description{
+	background-color: orange;
+	height : 200px;
+	text-align : justify;
+	padding: 5px 20px;
+	margin: 30px;
+	padding-bottom: 25px;
+    border: 10px dotted #fff;
+	animation-name:anime ;
+	animation-duration : 5s;
+}
+
+a {
+	font-size : 20px;
+    font-family : "Myriad Pro-condensed";
+}
+
+.description H1 {
+	text-align : center;
+	font-family : "Myriad Pro-Bold condensed";
+}
+hr {
+	margin-top : 30px;
+	border: 1px solid #dee7ec;
 }
 
 /*INI EKSTRA 1 */
