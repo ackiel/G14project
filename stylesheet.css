@@ -70,17 +70,20 @@ header {
 
 /*INI MAIN */
 .main {
-  margin-top : 60px;
-  padding: 20px;
+  margin-top : 50px;
+  padding-top: 50px;
   text-align : center;
 }
 
 .contents {
   width: 100%;
-  margin-top: 25px;
+  padding-top:50px;
+  padding-bottom: 125px;
+  margin-bottom: 50px;
   height: 300px;
   display:flex;
-
+  background-image: url('21.jpg');
+  background-size: cover;
 }
 
 .contents-left {
@@ -132,7 +135,7 @@ a {
 }
 hr {
 	margin-top : 30px;
-	border: 1px solid #dee7ec;
+	border: none;
 }
 /* Layout untuk Tablet */
 @media (max-width: 1000px) {
@@ -184,7 +187,8 @@ hr {
 
 .ekstra1-title{
   margin-top: 20px;
-	color: #696969;
+  color: #696969;
+  letter-spacing: 10px;
 }
 
 .ekstra1-content{
@@ -201,8 +205,12 @@ hr {
 
 /*INI EKSTRA 2*/
 .container{
-  margin: 20px;
+  margin-top: 25px;
+  padding-top: 25px;
+  padding-bottom: 100px;
   border-top: 3px solid #dee7ec;
+  background-image: url('159.jpg');
+  background-size: cover;
 }
 
 .container h1{
@@ -248,7 +256,8 @@ hr {
   line-height: 30px;
   border-radius: 10px;
   width: 380px;
-	color: #696969;
+  color: #696969;
+  border: 2px solid white;
 }
 
 .table{
@@ -263,7 +272,7 @@ hr {
   background-color: #E6E6E8;
   line-height: 20px;
   font-family: "Myriad Pro";
-  margin-top: 100px;
+  margin-top: 25px;
 }
 
 .footer h1{
