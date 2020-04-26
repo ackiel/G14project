@@ -12,33 +12,14 @@ body {
   
 }
 
-/*MENU*/
-.menu{
-  background-color: darkslategrey;
-  color: white;
-  height: 30px;
-}
-
-.menu ul{
-  display: flex;
-
-}
-
-.menu li{
-  flex: auto;
-  list-style: none;
-  text-align: center;
-  margin-top: 5px;
-}
-
 /*INI HEADER */
 
 header {
-  height: 90px;
+  height: 70px;
   width: 100%;
   background-color: #E6E6E8;
-	position: fixed;
-	top: 0;
+  position: fixed;
+  top: 0;
 }
 
 .header-left {
@@ -46,20 +27,45 @@ header {
 }
 
 .logo {
-  width: 125px;
+  width: 100px;
   padding: 5px;
-  margin-top: 5px;
-  margin-left: 20px;
+  margin-top: 2px;
+  margin-left: 30px;
 }
 
 .header-central h1{
   color: #696969;
+  padding-top: 10px;
   text-align: center;
-  padding-top: 15px;
   letter-spacing: 5px;
   margin: 0;
   height: 25px;
-  font-size: 50px;
+  font-size: 40px;
+}
+
+.menu {
+  display: flex;
+  background-color: darkgray;
+  margin-top: 35px;
+  height: 30px;
+}
+
+.menu a {
+  display: block;
+  float: left;
+  line-height: 20px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 220px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  transition: all 0.5s;
+}
+
+.menu a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 /*INI MAIN */
@@ -115,7 +121,7 @@ header {
 
 a {
 	font-size : 20px;
-    	font-family : "Myriad Pro"
+    	font-family : "Myriad Pro";
 		color: white;
 }
 
@@ -202,7 +208,8 @@ hr {
 .container h1{
   text-align: center;
   margin-bottom: 50px;
-  margin-top: 20px;  
+  margin-top: 20px;
+	color: #696969;
 }
 
 .photo-member{
@@ -231,6 +238,7 @@ hr {
   margin-right: inherit;
   padding-right: 10px;
   width: 320px;
+	color: #696969;
 }
 
 .member-detail{
@@ -240,6 +248,7 @@ hr {
   line-height: 30px;
   border-radius: 10px;
   width: 380px;
+	color: #696969;
 }
 
 .table{
