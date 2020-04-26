@@ -36,8 +36,9 @@ body {
 header {
   height: 90px;
   width: 100%;
-  color: black;
   background-color: #E6E6E8;
+	position: fixed;
+	top: 0;
 }
 
 .header-left {
@@ -114,12 +115,14 @@ header {
 
 a {
 	font-size : 20px;
-    font-family : "Myriad Pro-condensed";
+    	font-family : "Myriad Pro"
+		color: white;
 }
 
 .description H1 {
 	text-align : center;
-	font-family : "Myriad Pro-Bold condensed";
+	font-family : "Myriad Pro";
+	color: white;
 }
 hr {
 	margin-top : 30px;
@@ -175,11 +178,13 @@ hr {
 
 .ekstra1-title{
   margin-top: 20px;
+	color: #696969;
 }
 
 .ekstra1-content{
   margin-top: 40px;
   margin-left: 55px;
+	color: #696969;
 }
 
 .ekstra1-content img{
