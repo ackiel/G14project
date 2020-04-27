@@ -137,38 +137,6 @@ hr {
 	margin-top : 30px;
 	border: none;
 }
-/* Layout untuk Tablet */
-@media (max-width: 1000px) {
-  a{
-	  font-size:15px;
-	  
-  }
-}
-
-/* Layout untuk Smartphone */
-@media (max-width:700px) {
-	.contents{
-		height: auto;
-	}
-  
-  .logo1 {
-    height:50%;
-	width:70%;
-  }
-	
-  a{
-	  font-size:13px; 
-	  
-  }
-  .description H1{
-	  margin :0;
-  }
- .description{
-	margin: 0;
-	height : auto;
-	padding:5px;
-}
-}
 
 
 /*INI EKSTRA 1 */
@@ -176,7 +144,7 @@ hr {
   text-align: center;
   margin-top: 20px;
   font-size: 20px;
-  border-top: 3px solid #dee7ec;
+  /*border-top: 3px solid #dee7ec;*/
   height: 350px;
 }
 
@@ -201,6 +169,11 @@ hr {
   border-radius: 50%;
   width: 200px;
   height: 200px;
+}
+
+.ekstra1-content img:hover{
+  width: 250px;
+  height: 250px;
 }
 
 /*INI EKSTRA 2*/
@@ -267,16 +240,15 @@ hr {
 /*INI FOOTER */
 
 .footer{
-  height: 120px;
+  background-size: cover;
   width: 100%;
-  background-color: #E6E6E8;
+  background-color: teal;
   line-height: 20px;
   font-family: "Myriad Pro";
-  margin-top: 25px;
 }
 
 .footer h1{
-  color: #696969;
+  color: black;
   text-align: center;
   padding-top: 15px;
   font-size: 20px;
@@ -284,7 +256,7 @@ hr {
 }
 
 .footer h2{
-  color: #696969;
+  color: black;
   text-align: center;
   font-size: 12px;
   font-family: "Myriad Pro";
