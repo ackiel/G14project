@@ -37,6 +37,14 @@
         height: 150px;
       }
 
+      .member-name{
+        float:left;
+        margin-top: 130px;
+        margin-right: inherit;
+        padding-right: 10px;
+        width: 320px;
+      }
+
       .member-detail{
         background-color:#E6E6E8;
         padding: 5px 15px;
@@ -46,11 +54,9 @@
         width: 300px;
         color: #696969;
         border: 2px solid white;
+        font-size: 13px;
       }
       
-      .table{
-        font-size: 3px;
-      }
 }
 
 /* UNTUK SMARTPHONE*/
