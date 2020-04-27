@@ -14,10 +14,47 @@
         height: 150px;
     }
 
+    a{
+        font-size:15px;
+        
+    }
+    
+    .menu a{
+        padding-left: 5px;
+        margin-left: 140px;
+    }
+
+    .photo-member{
+        padding-left: 5px;
+        float: left;
+        margin-right: 10px;
+      
+      }
+
+      .photo-member img{
+        border-radius: 50%;
+        width: 150px;
+        height: 150px;
+      }
+
+      .member-detail{
+        background-color:#E6E6E8;
+        padding: 5px 15px;
+        float: left;
+        line-height: 20px;
+        border-radius: 10px;
+        width: 300px;
+        color: #696969;
+        border: 2px solid white;
+      }
+      
+      .table{
+        font-size: 3px;
+      }
 }
 
 /* UNTUK SMARTPHONE*/
-@media all and (max-width: 670px){
+@media all and (max-width: 700px){
     body{
         width: max-content;
     }
@@ -35,4 +72,31 @@
     .container{
         margin: 20px 0px;
     }
+
+    .contents{
+        height: auto;
+    }
+  
+  .logo1 {
+    height:50%;
+    width:70%;
+  }
+    
+  a{
+      font-size:13px; 
+      
+  }
+  .description H1{
+      margin :0;
+  }
+ .description{
+    margin: 0;
+    height : auto;
+    padding:5px;
+  }
+
+  .menu a{
+      padding-left: 0px;
+      margin-left: 140px;
+  }
 }
